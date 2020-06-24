@@ -284,6 +284,9 @@ nav a{
     display: flex;
     align-items: center;
 }
+.section_info__main img{
+    cursor: pointergit;
+}
 .section_info__main_block_files__file img:first-child{
     margin-right: 15px;
     width: 25px;
