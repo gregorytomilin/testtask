@@ -1,0 +1,184 @@
+<!doctype html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <script src="index.js" defer></script>
+</head>
+<body>
+<div class="main">
+    <div class="popup_cardDeleteConfirm">
+        <div class="popup_cardDeleteConfirm_block">
+            <h3>Удалить карточку</h3>
+            <p>Отправить карточку организации в архив?</p>
+            <div class="popup_cardDeleteConfirm_block_btn">
+                <button class="button_deleteCardEscape">ОТМЕНА</button>
+                <button class="button_deleteCardConfirm">УДАЛИТЬ</button>
+            </div>
+        </div>
+    </div>
+    <nav>
+        <div class="menu_sections menu__nav">
+            <a href="#"><img src="img/menu_sections_home.svg" alt=""></a>
+            <a href="#"><img src="img/menu_sections_order.svg" alt=""></a>
+            <a href="#"><img src="img/menu_sections_safety.svg" alt=""></a>
+            <a href="#"><img src="img/menu_sections_catalog.svg" alt=""></a>
+            <a href="#"><img src="img/menu_sections_administration.svg" alt=""></a>
+            <a href="#"><img src="img/menu_sections_agentService.svg" alt=""></a>
+            <a href="#"><img src="img/menu_sections_search.svg" alt=""></a>
+        </div>
+        <div class="menu_sections menu__user">
+            <a href="#"><img src="img/menu_user_chat.svg" alt=""></a>
+            <a href="#"><img src="img/menu_user_contacts.svg" alt=""></a>
+            <a href="#"><img src="img/menu_user_exit.svg" alt=""></a>
+        </div>
+    </nav>
+
+    <div class="section_user">
+        <div class="section_user__header">
+            <h1>Честный Агент</h1>
+            <h2>менеджер процесса</h2>
+        </div>
+        <div class="section_user__companies">
+            <img src="img/section_user__companies_building.svg" alt=""><h3>Организации</h3>
+        </div>
+    </div>
+    <div class="section_info">
+        <div class="section_info__header">
+            <div class="section_info__header_left">
+                <img src="img/section_info_Navigation_Arrow.svg" alt=""><p>К СПИСКУ ЮРИДИЧЕСКИХ ЛИЦ</p>
+            </div>
+            <div class="section_info__header_right">
+                <a href="#"><img src="img/section_info__header_chain.svg" alt=""></a>
+                <a href="#"><img src="img/section_info__header_history.svg" alt=""></a>
+                <a href="#"><img src="img/section_info__header_Delete.svg" alt="" id="cardDeletePopup"></a>
+            </div>
+        </div>
+        <div class="section_info__main">
+            <div class="section_info__main_header">
+            <h2>Перспективные захоронения</h2><img src="img/section_info_edit.svg" alt="">
+            </div>
+                <div class="section_info__main_block">
+                    <div class="section_info__main_block_header">
+                        <h3>ОБЩАЯ ИНФОРМАЦИЯ</h3><img src="img/section_info_edit.svg" alt="">
+                    </div>
+                    <div class="section_info__main_block_info">
+                        <p><span class="section_info__main_block_info__header">Полное название:</span>
+                            ООО Фирма “Перспективные захоронения”</p>
+                        <p><span class="section_info__main_block_info__header">Договор:</span>
+                            12345 от 12.03.2015, расторгнут 20.05.2017</p>
+                        <p><span class="section_info__main_block_info__header">Форма:</span>
+                            ООО</p>
+                        <p><span class="section_info__main_block_info__header">Тип:</span>
+                            Агент, Подрядчик</p>
+                    </div>
+                </div>
+
+                <div class="section_info__main_block">
+                    <div class="section_info__main_block_header">
+                        <h3>КОНТАКТНЫЕ ДАННЫЕ</h3><img src="img/section_info_edit.svg" alt="">
+                    </div>
+                    <div class="section_info__main_block_info">
+                        <p><span class="section_info__main_block_info__header">ФИО:</span>
+                            Григорьев Сергей Петрович</p>
+                        <p><span class="section_info__main_block_info__header">Телефон:</span>
+                            +7 (916) 216-55-88</p>
+                        <p><span class="section_info__main_block_info__header">Эл. почта:</span>
+                            <a href="">grigoriev@funeral.com</a></p>
+
+                    </div>
+                </div>
+
+                <div class="section_info__main_block">
+                    <div class="section_info__main_block_header">
+                        <h3>АДРЕСА И ТЕЛЕФОНЫ</h3><img src="img/section_info_edit.svg" alt="">
+                    </div>
+                    <div class="section_info__main_block_info">
+                        <p><span class="section_info__main_block_info__header">Юр. адрес:</span>
+                            105173, г. Балашиха, ул. Молодежная, д. 12А корп. 2, офис 312</p>
+                        <p><span class="section_info__main_block_info__header">Юр. телефон:</span>
+                            +7 (495) 345-55-88</p>
+                        <p><span class="section_info__main_block_info__header">Фактич. адрес:</span>
+                            105173, г. Балашиха, ул. Молодежная, д. 12А корп. 2, офис 312</p>
+                        <p><span class="section_info__main_block_info__header">Фактич. адрес:</span>
+                            +7 (916) 216-55-88</p>
+                    </div>
+                </div>
+
+                <div class="section_info__main_block">
+                    <div class="section_info__main_block_header">
+                        <h3>РЕКВИЗИТЫ ОРГАНИЗАЦИИ</h3><img src="img/section_info_edit.svg" alt="">
+                    </div>
+                    <div class="section_info__main_block_info">
+                            <p><span class="section_info__main_block_info__header">БИК:</span>
+                                044525225</p>
+                            <p><span class="section_info__main_block_info__header">Банк:</span>
+                                ПАО СБЕРБАНК</p>
+                            <p><span class="section_info__main_block_info__header">Р/С:</span>
+                                4070 2810 0000 9000 1425</p>
+                            <p><span class="section_info__main_block_info__header">К/С:</span>
+                                3010 1810 5403 0000 0795 БИК 044 030 795</p>
+                            <p><span class="section_info__main_block_info__header">ИНН:</span>
+                                1001254535</p>
+                            <p><span class="section_info__main_block_info__header">КПП:</span>
+                                773101001</p>
+                            <p><span class="section_info__main_block_info__header">ОГРН:</span>
+                                1053600591197</p>
+                            <p><span class="section_info__main_block_info__header">Ген. директор:</span>
+                                Степаненко Игорь Яковлевич</p>
+                    </div>
+
+                </div>
+
+
+
+            <div class="section_info__main_block_files">
+                <h3>ПРИЛОЖЕННЫЕ ФАЙЛЫ</h3>
+
+                <div class="section_info__main_block_files__file">
+                    <img src="img/section_info__main_block_files_file.svg" alt="">
+                    <div class="section_info__main_block_files__file_Info">
+                        <p class="fileName">Договор ЗН 1234-4567.pdf</p>
+                        <p class="fileInfo">Файл PDF, 1.2 МБ</p>
+                    </div>
+                    <img src="img/section_info__main_block_files_DeleteFile.svg" alt="">
+                </div>
+                <div class="section_info__main_block_files__file">
+                    <img src="img/section_info__main_block_files_fileZip.svg" alt="">
+                    <div class="section_info__main_block_files__file_Info">
+                        <p class="fileName">Фотографии счета на оп...</p>
+                        <p class="fileInfo">Файл ZIP, 200 КБ</p>
+                    </div>
+                    <img src="img/section_info__main_block_files_DeleteFile.svg" alt="">
+                </div>
+                <div class="section_info__main_block_files__file">
+                    <img src="img/section_info__main_block_files_fileZip.svg" alt="">
+                    <div class="section_info__main_block_files__file_Info">
+                        <p class="fileName">Документы за декабрь.zip</p>
+                        <p class="fileInfo">Файл ZIP, 200 КБ</p>
+                    </div>
+                    <img src="img/section_info__main_block_files_DeleteFile.svg" alt="">
+                </div>
+
+                <button class="button_fileAdd">
+                    <img src="img/section_info__main_block_files_fileAdd.svg" alt=""> <p>ДОБАВИТЬ ФАЙЛ</p>
+                </button>
+
+            </div>
+
+            <footer>
+                <p>© 1992 - 2020 Честный Агент © Все права защищены.</p>
+                <p>8 (495) 150-21-12</p>
+            </footer>
+        </div>
+
+    </div>
+
+
+</div>
+</body>
+</html>
